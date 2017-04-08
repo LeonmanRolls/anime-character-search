@@ -9,7 +9,7 @@
                                :client-secret "Xb8WheKByt61bGDwipwx"
                                :base-url "https://anilist.co/api/"
                                :search-result []
-                               :value "Search!"}))
+                               :value ""}))
 
 (defn get-access-token []
   (POST (str (:base-url @global-state) "auth/access_token")
